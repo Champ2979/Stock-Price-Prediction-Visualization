@@ -31,5 +31,23 @@ Stock price prediction of State Bank of India and visualization of SBI and Relia
 <li>Use the model to predict the stock prices for the testing data.</li>
 <li>Plot the predicted and actual stock prices using matplotlib.</li>
 <li>Calculate the root mean squared error (RMSE) to evaluate the performance of the model.</li>
-     
+<h1> Concept of moving average </h1>
+<p> My approach for predicting the stock prices for State Bank of India is completly based on the project of <strong>moving average</strong>. Moving average is a widely used technical analysis tool that helps to smooth out the price action of a stock or any other financial asset over a specified period of time. In this code, the moving average concept is not explicitly used. However, it is indirectly used when the window size of 60 is specified to create the input sequences for the LSTM model. This window size determines the number of previous time steps (or days) to consider when predicting the next time step. By using a larger window size, the model can capture the long-term trends and patterns in the data, which is similar to what a moving average does.</p>
+
+<h2> Note: </h2> <h4><strong> To predict stock prices, we will only be using the "close" column as input, as stock prices tend to change frequently over time. While other parameters can also be considered, we need to be cautious not to overfit the model by including too many features that may not have a significant impact on the stock prices.</strong></h4>
+
+<h1>Results</h1>
+<p>The LSTM model was able to predict the stock prices for State Bank of India with a reasonable accuracy. The RMSE was calculated to be around 3.8, which means that the predicted prices were on average about 3.8 rupees away from the actual prices. The predicted and actual prices were plotted using matplotlib to visualize the performance of the model.</p>
+
+<h1> Conclusion</h1>
+<p>This project demonstrates the use of LSTM to predict stock prices. While the model was able to make reasonably accurate predictions for State Bank of India, it may not generalize well to other stocks. Further research is needed to optimize the model and evaluate its performance on other stocks.</p>
+<h1> References</h1>
+     <li><a href="https://pandas.pydata.org/docs/">Pandas documentation</a></li>
+     <li><a href="https://numpy.org/doc/stable/">NumPy documentation</a></li>
+     <li><a href="https://matplotlib.org/stable/contents.html">Matplotlib documentation</a></li>
+     <li><a href="https://seaborn.pydata.org/">Seaborn documentation</a></li>
+     <li><a href="https://pandas-datareader.readthedocs.io/en/latest/">pandas-datareader documentation</a></li>
+     <li><a href="https://pypi.org/project/yfinance/">yfinance documentation</a></li>
+     <li><a href="https://scikit-learn.org/stable/documentation.html">scikit-learn documentation</a></li>
+     <li><a href="https://keras.io/api/">Keras documentation</a></li>
      
