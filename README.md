@@ -9,14 +9,32 @@ Stock price prediction of State Bank of India and visualization of SBI and Relia
   
   <h2><ul> Installation of Libraries </ul></h2>
      <li>pandas</li>
-     <li>numpy</li>
-     <li>matplotlib</li>
-     <li>seaborn</li>
-     <li>pandas_datareader</li>
-     <li>yfinance</li>
+     <li>numpy,</li>
+     <li>matplotlib, </li>
+     <li>seaborn, </li>
+     <li>pandas_datareader,</li>
+     <li>yfinance, API</li>
      <li>datetime</li>
-     <li>keras</li>
-     <li>scikit-learn</li> 
+     <li>keras,</li>
+     <li>scikit-learn,</li> 
+     
+ <h1>Versions (need to install)</h1>
+     <h3>pandas</h3>
+       <li>Version: 1.5.2</li>
+     <h3>numpy</h3>
+       <li>Version: 1.24.1</li>
+     <h3>matplotlib</h3>
+        <li>Version: 1.5.2</li>
+     <h3>seaborn</h3>
+        <li>Version: 0.12.2</li>
+     <h3>pandas_datareader</h3>
+        <li> Version: 0.10.0</li>
+     <h3>yfinance</h3>
+        <li>Version: 0.2.6</li>
+     <h3>keras</h3>
+        <li>Version: 2.11.0</li>
+     <h3>scikit-learn</h3>
+        <li>Version: 1.2.0</li>
 <h1> Usage </h1>
      <p> After installing the dependencies, open the Python file in a Jupyter Notebook or run it directly from the terminal. The code will download the stock price data for State Bank of India and split it into training and testing datasets. Then it will create an LSTM model, train it on the training data, and use it to predict the stock prices for the testing data.</p>
 <h1> Code Structure </h1>
