@@ -1,0 +1,8 @@
+pandas
+numpy
+seaborn
+yfinance
+scikit-learn
+keras
+pandas_datareader
+tensorflow
